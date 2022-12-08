@@ -1,0 +1,60 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.listHeader div {
+  display: flex;
+  gap: 8px;
+}
+
+.createdTasks,
+.concludeTasks {
+  display: flex;
+  align-items: center;
+}
+
+.createdTasks p {
+  color: var(--blue-300);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.concludeTasks p {
+  color: var(--purple-300);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.badge {
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  font-weight: bold;
+}
+
+.border {
+  border-top: 1.5px solid var(--gray-400);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 1rem;
+}
